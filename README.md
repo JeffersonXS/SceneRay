@@ -1,6 +1,6 @@
 # SceneRay
 
-### GitHub dos itegrantes
+### GitHub dos integrantes
 
 Jefferson Bispo da Silva:
 > GitHub [@JeffersonXS](https://github.com/JeffersonXS) &nbsp;&middot;&nbsp;
@@ -21,6 +21,12 @@ Lucas Barreto Barbosa:
   - Nesse lugar nosso personagem treina sua mira com objetos;
   - A cada vez que ele acerta os objetos, vão aparecendo mais em lugares aleatórios dentro do seu campo de visão;
   - É um campo de treino de mira a céu aberto, longe da civilização.
+
+<h1 align="center">
+  <a ><img src="https://github.com/JeffersonXS/SceneRay/assets/101645699/23e1cc3d-9dd6-4fab-8ec3-874c7120bc67" width ="900" </a>
+  <br>
+</h1>
+  
 ---
 * Conceitos de progamação aplicados
   - Raycast;
@@ -33,7 +39,16 @@ Lucas Barreto Barbosa:
 ### Raycast
 
   Utilizamos do raycast para definirmos os inimigos e assim criar uma trajetória do nosso personagem até o inimigo. Colocamos uma mira com um canvas, para realmente mostrar se era inimigo ou não, se fosse mostraria a seguinte mensagem no terminal da unity: "hit something". Se não fosse apareceria: "hit nothing".
-
+<h1 align="center">
+  <a ><img src="https://github.com/JeffersonXS/SceneRay/assets/101645699/e8c877ba-203c-471b-8e41-c52223748801" width ="900" </a>
+  <br>
+</h1>
+  
+<h1 align="center">
+  <a ><img src="https://github.com/JeffersonXS/SceneRay/assets/101645699/6a2d2550-4eb9-4fd9-9821-db3e9563270c" width ="900" </a>
+  <br>
+</h1>
+    
 ### Destroy
 
   O "destroy" também faz parte do raycast, porque assim que é definido um inimigo, é usado o destroy para acabar com tal.
@@ -53,3 +68,8 @@ Criamos dois scripts uma para a movimentação básica do personagem como pulo e
 ### Prefab
 
 Foi necessário o "prefab" para fazer com que diversos inimigos surgissem em locais aleatórios sem poluir muito a tela. Então criamos um script para definir os locais aleatórios que e a quantidade e interligamos com o destroy, pois assim que um for destuído o outro aparece.
+
+<h1 align="center">
+  <a ><img src="https://github.com/JeffersonXS/SceneRay/assets/101645699/7516b471-3844-40ac-9a93-1b6444d86bcf" width ="900" </a>
+  <br>
+</h1>    
