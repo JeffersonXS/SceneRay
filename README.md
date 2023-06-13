@@ -12,7 +12,7 @@ Lucas Barreto Barbosa:
 ### Explicação da cena 
 
 <h4 align ="center">
-  Criamos uma cena de mira bem básica no unity, sendo assim, nessa cena foi preciso a utilização de raycast para podermos definir os inimigos a serem derrotados.
+  Desenvolvemos um projeto no Unity como principal foco criar uma cena 3D com a utilização de elementos de raycast com detector de colisão, com implementação de recursos de iluminação.
 </a></h4>
   
 * Cenário
@@ -31,7 +31,7 @@ Lucas Barreto Barbosa:
 * Conceitos de progamação aplicados
   - Raycast;
   - Destroy;
-  - Skybox Processual;
+  - Skybox Panoramic;
   - Directional Light;
   - Scripts de movimentação e câmera;
   - Prefab.
@@ -53,7 +53,7 @@ Lucas Barreto Barbosa:
 
   O "destroy" também faz parte do raycast, porque assim que é definido um inimigo, é usado o destroy para acabar com tal.
 
-### Skybox Processual
+### Skybox Panoramic
 
   Aqui ajeitamos a visão do céu, arrumamos sua iluminação/coloração, para coloca ela no céu da cena, utilizamos a opção Environment do lighting localizado no rendering que fica na barra de atalhos Window do unity.
 
